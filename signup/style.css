@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(105deg , red , orange);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 2.5rem;    
+}
+
+.box{
+height: 500px;
+width: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 2px solid white;
+border-radius: 1rem;
+color: white;
+}
+
+.input{
+    margin: 1rem 0rem;
+    text-align: left;
+}
+label{
+    font-size: 1.2rem;
+}
+.input_field{
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    width: 16rem;
+    border-radius: 0.5rem;
+
+}
+.btn{
+    padding: 0.8rem;
+    width: 350px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    margin-left:0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background: rgba(241, 184, 162, 0.943);
+    color: white;
+    font-weight: bold;
+}
+#name{
+    margin-left: 3rem;
+}
+
+#email{
+    margin-left: 3rem;
+}
+#pass{
+    margin-left: 1.2rem;
+}
+
+#cpass {
+    margin-left: 0.1rem;
+}
